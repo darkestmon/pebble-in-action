@@ -1,0 +1,49 @@
+{
+    "author": "ejr.jacob@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "pebble-in-action",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Pebble in Action",
+        "enableMultiJS": false,
+        "messageKeys": [
+            "STATUS",
+            "CODE",
+            "DATA1",
+            "DATA2"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/IMAGE_MENU_ICON",
+                    "menuIcon": true,
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/IMAGE_MAIN_BG",
+                    "name": "IMAGE_MAIN_BG",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "5e68bf77-655a-493a-a1ce-b61e0fee4f2b",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.55.0"
+}
